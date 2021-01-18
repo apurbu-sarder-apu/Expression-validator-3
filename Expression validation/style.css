@@ -1,0 +1,30 @@
+body {
+    background-image: url(/image/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+
+}
+#contact-form {
+    background: rgba(0, 0, 0, .6);
+    color: white;
+    margin-top: 100px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 3px grey;
+}
+#name, #email, #car, #address, #phone, #exampleFormControlTextarea1{
+    display: block;
+    padding: 8px 16px;
+    font-size: 2em;
+    margin: 10px auto;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 3px solid #ccc;
+    outline: none !important;
+}
+#emailvalid, #namevalid{
+    color: red;
+}
